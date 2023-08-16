@@ -1,0 +1,12 @@
+[package]
+name = "date"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+chrono = { version = "0.4", features = ["serde"] }
+chrono-tz = { version = "0.8.3", features = ["serde"] }
+ansi_term = "0.12.1"
